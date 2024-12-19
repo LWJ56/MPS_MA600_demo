@@ -1,0 +1,6 @@
+读取了原始数据
+移植文件MA600.c、MA600.h
+移植需注意：修改对应SPI引脚；
+重定义MA600.h下的：		#define SPI1_CS_Pin GPIO_PIN_0
+						 #define SPI1_CS_GPIO_Port GPIOB
+						
